@@ -1,0 +1,150 @@
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v1
+    appVersion: 5.7.30
+    created: "2021-09-14T09:45:53.626663113Z"
+    description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source relational database system.
+    digest: 901b9f568ff92b9bfc39e6e22331108cad8f6cbcf0f28b2110c82f3cf83a9b23
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - mysql-1.6.9.tgz
+    version: 1.6.9
+  oai-amf:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-09-14T09:45:53.627544613Z"
+    description: Helm chart for AMF network function
+    digest: af48baa1a9d2c9e56dd81baf546335679adee7ac79322f0fe142d44061f42c31
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - 5GCN
+    - AMF
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-amf
+    sources:
+    - https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-amf
+    type: application
+    urls:
+    - oai-amf-1.1.0.tgz
+    version: 1.1.0
+  oai-gnb:
+  - apiVersion: v1
+    appVersion: v1
+    created: "2021-09-14T09:45:53.628158331Z"
+    description: A Helm chart for gnb network function
+    digest: 176ca09d2289c6f496e0e82b5d6f7e2ddfb9b3582b1384eb27dd598c3c369dcf
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - RF Simulator
+    - gNB
+    - RAN
+    - 5G
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-gnb
+    sources:
+    - https://gitlab.eurecom.fr/oai/openairinterface5g
+    type: application
+    urls:
+    - oai-gnb-0.1.1.tgz
+    version: 0.1.1
+  oai-nr-ue:
+  - apiVersion: v1
+    appVersion: v1
+    created: "2021-09-14T09:45:53.628755588Z"
+    description: A Helm chart for nr-ue network function
+    digest: 40845dce66caf581a2fe7be62eda14ee1169d549c7f138f5b9115599e969fcd5
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - RF Simulator
+    - NR-UE
+    - RAN
+    - 5G
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-nr-ue
+    sources:
+    - https://gitlab.eurecom.fr/oai/openairinterface5g
+    type: application
+    urls:
+    - oai-nr-ue-0.1.1.tgz
+    version: 0.1.1
+  oai-nrf:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-09-14T09:45:53.629315844Z"
+    description: A Helm chart for NRF network function
+    digest: 89bff2378f840b5a3f5455fdd40137db6a62fa1b2ffaf093f9183ab6bcccfb85
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - 5GCN
+    - NRF
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-nrf
+    sources:
+    - https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-nrf
+    type: application
+    urls:
+    - oai-nrf-1.1.0.tgz
+    version: 1.1.0
+  oai-smf:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-09-14T09:45:53.630061723Z"
+    description: A Helm chart for SMF network function
+    digest: 0df22c04562eb89879874e184a0e9889df192738095c84cf5faf91d9c6cbd54d
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - 5G
+    - SMF
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-smf
+    sources:
+    - https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-smf
+    type: application
+    urls:
+    - oai-smf-1.1.0.tgz
+    version: 1.1.0
+  oai-spgwu-tiny:
+  - apiVersion: v1
+    appVersion: 1.1.2
+    created: "2021-09-14T09:45:53.630730241Z"
+    description: A Helm chart for UPF/SPGWU TINY as network function
+    digest: 4f8f3203e4a7cb3cecaefaa3d1edda02e163d4bf8b002b112558e0d5a8b99c84
+    icon: http://www.openairinterface.org/wp-content/uploads/2015/06/cropped-oai_final_logo.png
+    keywords:
+    - EPC
+    - 4G
+    - 5G
+    - Edge
+    - SPGW-U
+    - UPF
+    maintainers:
+    - email: contact@openairinterface.org
+      name: OPENAIRINTERFACE
+    name: oai-spgwu-tiny
+    sources:
+    - https://github.com/OPENAIRINTERFACE/openair-spgwu-tiny
+    type: application
+    urls:
+    - oai-spgwu-tiny-1.1.2.tgz
+    version: 1.1.2
+generated: "2021-09-14T09:45:53.624275915Z"
